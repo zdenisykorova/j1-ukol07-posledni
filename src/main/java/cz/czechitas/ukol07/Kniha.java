@@ -5,6 +5,14 @@ public class Kniha {
     private String nazev;
     private int rokVydani;
 
+    //konstruktor
+    public Kniha(String autor, String nazev, int rokVydani) {
+        this.autor = autor;
+        this.nazev = nazev;
+        this.rokVydani = rokVydani;
+    }
+
+    //gettery, settery
     public String getAutor() {
         return autor;
     }
